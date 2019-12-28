@@ -42,3 +42,5 @@ class SwapiService {
         return this.getAllPeoples(`/starships/${id}/`);
     }
 }
+
+export default SwapiService
